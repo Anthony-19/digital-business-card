@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.container { 
+    background-color: #23252C;
+    max-width: 550px;
+    padding: 33px 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 75vw;
+    border-radius: 1rem;
+    background-color: #1A1B21;
+    color: white;
+}
+.cardTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardTop .image--tony{
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+}
+h2 {
+    padding-top: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 12.8px;
+    color: #F3BF99;
+}
+p {
+    font-size: 10.24px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 0.5rem;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0 2rem;
+}
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.1rem 1.3rem;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+}
+.linkedln {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.1rem 1.3rem;
+    border-radius: 0.5rem;
+    background-color: #5093E2;
+    color: white;
+}
+.linkedln .linkedln-icon {
+    background-color: white;
+}
+.bi-envelope {
+    color: black;
+}
+
+.about {
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+.interest {
+    padding: 0 2rem;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+footer {
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+    border-radius: 0 0 1rem 1rem;
+}
+footer > a {
+    text-decoration: none; 
+}
+footer .bi-twitter {
+    color: #918E9B;
+    font-size: 25px;
+  }
+  footer .bi-facebook {
+    color: #918E9B;
+    font-size: 25px;
+  }
+  
+  footer .bi-instagram {
+    color: #918E9B;
+    font-size: 25px;
+  }
+  
+  footer .bi-github {
+    color: #918E9B;
+    font-size: 25px;
+  }
+/* @media screen and (max-width: 280px) {
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+} */
